@@ -1,7 +1,8 @@
 (function() {
     var sc = 0; // scrollTop
     var header = $('#header');
-
+    var temp = '임시변수';
+    
     // pc gnb
     $('.gnb .depth1').on('mouseenter', function() {
         header.addClass('on');
